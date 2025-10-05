@@ -12,7 +12,7 @@ def divide():
         print("starting over...")
         divide()
     finally:
-        print("Done")
+        print("Done.")
 
 divide()
 
