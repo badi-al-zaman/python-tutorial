@@ -30,7 +30,7 @@ sorted(x2)
 ################################################
 ###################  Tuples  ###################
 ################################################
-x5 = (1, 2, 3, "Hello", (0,),) # Tuple is a immutable list
+x5 = (1, 2, 3, "Hello", (0,),) # Tuple is immutable list
 # x3[0] = 10 # This will raise an error because tuple is immutable
 temp = list(x5)
 temp[0] = 10
@@ -45,7 +45,6 @@ person.items() # return a tuple of a list of tuples of key-value pairs
 for key, value in person.items():
     print(f"{key}: {value}")
 
-person["nickname"] = "mmmm"
+person["nickname"] = "mmmm" # add new key-value pair
 person.keys() # return a list of keys
 person.values() # return a list of values
-person.get("name") # return the value of the key (or None if the key does
