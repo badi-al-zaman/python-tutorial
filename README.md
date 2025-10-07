@@ -1,6 +1,6 @@
 # Python Tutorial Series
 
-Welcome to the **Python Tutorial Series**, a structured set of lessons designed to take you from beginner to advanced Python programming.
+Welcome to the **Python Tutorial Series**, a structured set of lessons designed to learn you the main principles of python programming.
 
 This repository is divided into three main sections:
 
@@ -39,24 +39,6 @@ python-tutorial/
    * [Beginner Section](./beginner/README.md)
    * [Intermediate Section](./intermediate/README.md)
    * [Advanced Section](./advanced/README.md)
-
-3. Each lesson is a video file (`.mp4` / `.mkv`) you can play directly. Follow them in order for the best learning experience.
-
----
-
-## 🔖 Versions
-
-This tutorial is also tagged by progress:
-
-* `v1.0` → Beginner section complete
-* `v2.0` → Intermediate section complete
-* `v3.0` → Advanced section complete
-
-You can switch versions with:
-
-```bash
-git checkout v1.0
-```
 
 ---
 
