@@ -1,7 +1,7 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 
-class IPerson(metaclass=ABCMeta):
+class IPerson(ABC):
     @abstractmethod
     def person_method(self):
         """Interface method"""
