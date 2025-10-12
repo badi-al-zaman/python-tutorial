@@ -1,5 +1,6 @@
 # https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true
 
+
 def is_leap(year):
     """
     return false if the year is not a leap year
@@ -15,6 +16,7 @@ def is_leap(year):
             return leap
         return True
     return leap
+
 
 year = int(input())
 print(is_leap(year))
